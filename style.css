@@ -1,0 +1,23 @@
+
+body {
+    background-color: #f1f4f8;
+    color: #222;
+}
+
+.lomake {
+    max-width: 650px;
+    padding: 28px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+#lomakeTulos {
+    font-weight: bold;
+}
+
+@media (max-width: 576px) {
+    .lomake {
+        padding: 18px;
+    }
+}
